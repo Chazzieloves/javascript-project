@@ -29,6 +29,7 @@ main {
     display: flex;
     width: 100%;
     background-color: #463355;
+    color: #fff;
     justify-content: center;
     padding: 20px;
 }
@@ -60,6 +61,15 @@ main {
     align-items: center;
 }
 
+#welcome-section {
+    display: flex;
+    background-color: #B29CC4;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
 #start-btn {
     background-color: #463355;
     color: #fff;
@@ -69,4 +79,31 @@ main {
     cursor: pointer;
     font-size: 1.2rem;
     margin-bottom: 20px;
+}
+
+#quiz-section {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+#question-container {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+#result-section {
+    display: flex;
+    background-color: #B29CC4;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
 }

@@ -188,7 +188,7 @@ const startBtn = document.getElementById('start-btn');
 const welcomeSection = document.getElementById('welcome-section');
 const quizSection = document.getElementById('quiz-section');
 const resultsSection = document.getElementById('results-section');
-const questionContainer = document.getElementById('question-contaner');
+const questionContainer = document.getElementById('question-container');
 let temporQuestionsArray = []
 
 console.log(startBtn)
