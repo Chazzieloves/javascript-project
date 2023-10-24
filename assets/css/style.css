@@ -59,3 +59,14 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
+#start-btn {
+    background-color: #463355;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
